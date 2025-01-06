@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import MainLayout from "./components/MainLayout";
+import About from "./pages/About";
+import Landing from "./pages/Landing";
+import { BrowserRouter, Routes, Route } from "react-router";
+import Services from "./pages/Services";
+import FinancialAdvisory from "./pages/FinancialAdvisory";
+import CapitalRaisingAdvisory from "./pages/CapitalRaisingAdvisory";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes>
+      <Route element={<MainLayout />}>
+        <Route path="/" element={<Landing />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/services/financial-advisory" element={<FinancialAdvisory />} />
+        <Route path="/services/capital-raising-advisory" element={<CapitalRaisingAdvisory />} />
+      </Route>
+    </Routes>
   );
 }
 

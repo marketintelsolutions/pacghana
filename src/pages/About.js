@@ -16,7 +16,7 @@ const About = () => {
 
                     <h2 className='capitalize text-4xl font-semibold mt-5 tracking-[1px]'>deliver exceptional services in our chosen markets</h2>
 
-                    <p className='text-xl mt-10 font-light tracking-[1px]'>PanAfrican Capital Ghana Limited is a
+                    <p className='text-xl mt-10 font-light tracking-[1px] text-justify'>PanAfrican Capital Ghana Limited is a
                         PanAfrican Capital Holdings Company
                         with special focus on key sectors across
                         emerging and frontier markets in Africa.

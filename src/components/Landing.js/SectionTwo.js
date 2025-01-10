@@ -7,15 +7,15 @@ const SectionTwo = () => {
             <div className='w-full max-w-max mx-auto translate-y-[-50%] flex gap-10'>
                 <div className='flex gap-10 items-center bg-white shadow-[0px_1px_30px_5px_rgba(0,0,0,0.1)] rounded-[10px] w-fit px-10 py-6'>
                     <img src="/financial.png" alt="financial" />
-                    <p className='text-2xl'>Financial Services</p>
+                    <p className='text-2xl text-black'>Financial Services</p>
                 </div>
                 <div className='flex gap-10 items-center bg-white shadow-[0px_1px_30px_5px_rgba(0,0,0,0.1)] rounded-[10px] w-fit px-10 py-6'>
                     <img src="/hospitality.png" alt="hospitality" />
-                    <p className='text-2xl'>Hospitality & Entertainment</p>
+                    <p className='text-2xl text-black'>Hospitality & Entertainment</p>
                 </div>
                 <div className='flex gap-10 items-center bg-white shadow-[0px_1px_30px_5px_rgba(0,0,0,0.1)] rounded-[10px] w-fit px-10 py-6'>
                     <img src="/estate.png" alt="estate" />
-                    <p className='text-2xl'>Real Estate & Infrastructure</p>
+                    <p className='text-2xl text-black'>Real Estate & Infrastructure</p>
                 </div>
             </div>
 
@@ -26,7 +26,7 @@ const SectionTwo = () => {
 
                     <h2 className='capitalize text-4xl font-semibold mt-5 tracking-[1px]'>deliver exceptional services in our chosen markets</h2>
 
-                    <p className='text-xl mt-10 font-light tracking-[1px]'>PanAfrican Capital Ghana Limited is a
+                    <p className='text-xl mt-10 font-light tracking-[1px] text-justify'>PanAfrican Capital Ghana Limited is a
                         PanAfrican Capital Holdings Company
                         with special focus on key sectors across
                         emerging and frontier markets in Africa.

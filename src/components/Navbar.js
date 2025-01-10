@@ -1,8 +1,7 @@
 import React from 'react'
 import { BsTelephoneFill } from 'react-icons/bs'
-import { CiLocationOn } from 'react-icons/ci'
-import { FaPhone } from 'react-icons/fa'
-import { FaLocationDot, FaPhoneFlip } from 'react-icons/fa6'
+import { FaLocationDot } from 'react-icons/fa6'
+import { FiMenu } from 'react-icons/fi'
 import { Link, useLocation } from 'react-router'
 
 const links = [
@@ -17,10 +16,6 @@ const links = [
     {
         text: 'Services',
         path: '/services',
-    },
-    {
-        text: 'Blog',
-        path: '/blog',
     },
     {
         text: 'Contact',
@@ -65,6 +60,9 @@ const Navbar = () => {
                                 className={`${pathname === item.path ? 'border-b-2 border-secondaryRed text-secondaryRed' : ''} pb-1 text-white hover:text-secondaryRed`} key={index} to={item.path}>{item.text}
                             </Link>)
                     }
+                </div>
+                <div>
+                    <span className='text-white'><FiMenu size={32} /></span>
                 </div>
             </div>
         </nav>

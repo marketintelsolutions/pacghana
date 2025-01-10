@@ -11,32 +11,32 @@ const SectionThree = () => {
             <div className='grid grid-cols-3 w-full max-w-max mx-auto bg-primaryBlue p-[1px] gap-[1px] mt-20'>
                 <div className='flex flex-col gap-5 w-fit bg-white px-10 py-5'>
                     <img src="/financial.png" alt="financial" className='max-w-[90px]' />
-                    <h3 className='text-secondaryRed font-semibold text-2xl'>Financial Services</h3>
+                    <h3 className='text-primaryBlue font-semibold text-2xl'>Financial Services</h3>
                     <p className='font-light'>Our brands are synonymous with exquisite accommodations, exquisite dining experiences, and an array of captivating entertainment options</p>
                 </div>
                 <div className='flex flex-col gap-5 w-fit bg-white px-10 py-5'>
                     <img src="/hospitality.png" alt="hospitality" className='max-w-[90px]' />
-                    <h3 className='text-secondaryRed font-semibold text-2xl'>Hospitality & Entertainment</h3>
+                    <h3 className='text-primaryBlue font-semibold text-2xl'>Hospitality & Entertainment</h3>
                     <p className='font-light'>Our brands are synonymous with exquisite accommodations, exquisite dining experiences, and an array of captivating entertainment options</p>
                 </div>
                 <div className='flex flex-col gap-5 w-fit bg-white px-10 py-5'>
                     <img src="/estate.png" alt="estate" className='max-w-[90px]' />
-                    <h3 className='text-secondaryRed font-semibold text-2xl'>Real Estate & Infrastructure</h3>
+                    <h3 className='text-primaryBlue font-semibold text-2xl'>Real Estate & Infrastructure</h3>
                     <p className='font-light'>Our brands are synonymous with exquisite accommodations, exquisite dining experiences, and an array of captivating entertainment options</p>
                 </div>
                 <div className='flex flex-col gap-5 w-fit bg-white px-10 py-5'>
                     <img src="/agro.png" alt="agro" className='max-w-[90px]' />
-                    <h3 className='text-secondaryRed font-semibold text-2xl'>Agro-allied & FMCG</h3>
+                    <h3 className='text-primaryBlue font-semibold text-2xl'>Agro-allied & FMCG</h3>
                     <p className='font-light'>Our brands are synonymous with exquisite accommodations, exquisite dining experiences, and an array of captivating entertainment options</p>
                 </div>
                 <div className='flex flex-col gap-5 w-fit bg-white px-10 py-5'>
                     <img src="/healthcare.png" alt="healthcare" className='max-w-[90px]' />
-                    <h3 className='text-secondaryRed font-semibold text-2xl'>Healthcare</h3>
+                    <h3 className='text-primaryBlue font-semibold text-2xl'>Healthcare</h3>
                     <p className='font-light'>Our brands are synonymous with exquisite accommodations, exquisite dining experiences, and an array of captivating entertainment options</p>
                 </div>
                 <div className='flex flex-col gap-5 w-fit bg-white px-10 py-5'>
                     <img src="/renewable.png" alt="renewable" className='max-w-[90px]' />
-                    <h3 className='text-secondaryRed font-semibold text-2xl'>Renewable Energy</h3>
+                    <h3 className='text-primaryBlue font-semibold text-2xl'>Renewable Energy</h3>
                     <p className='font-light'>Our brands are synonymous with exquisite accommodations, exquisite dining experiences, and an array of captivating entertainment options</p>
                 </div>
             </div>

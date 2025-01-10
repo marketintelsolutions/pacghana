@@ -4,9 +4,8 @@ const Team = () => {
     return (
         <div className='flex flex-col items-center'>
             <h3 className='text-secondaryRed rounded-full w-fit border border-secondaryRed p-1 px-2 font-semibold'>OUR TEAM</h3>
-            <h2 className='text-4xl font-semibold mt-4'>Our Skilled Leaders</h2>
-            <p className='text-xl max-w-[60%] text-center mt-10 font-light'>We help you see the world differently, discover opportunities you may never have imagined and achieve results that bridge what is with what can be.</p>
-
+            <p className='text-xl max-w-[60%] text-center mt-4 font-normal tracking-[1.5px]'>We help you see the world differently, discover opportunities you may never have imagined and achieve results that bridge what is with what can be.</p>
+            <h2 className='text-4xl font-semibold mt-10'>Our Leadership Board</h2>
             <div className='mt-20 flex flex-wrap gap-12 justify-center w-full max-w-max mx-auto'>
                 <div className='shadow-[0px_0px_25px_7px_rgba(0,0,0,0.1)]'>
                     <img src="/sina.png" alt="sina" className='w-[300px] object-cover h-[320px]' />
@@ -41,6 +40,45 @@ const Team = () => {
                     <div className='flex justify-center items-center flex-col gap-4 p-5'>
                         <p className='font-semibold text-xl'>Bolarinwa Sanni</p>
                         <p className='text-sm font-light text-secondaryRed'>MANAGING DIRECTOR</p>
+                    </div>
+                </div>
+            </div>
+
+            <h2 className='text-4xl font-semibold mt-20'>Our Leadership Management</h2>
+            <div className='mt-20 flex flex-wrap gap-12 justify-center w-full max-w-max mx-auto'>
+                <div className='shadow-[0px_0px_25px_7px_rgba(0,0,0,0.1)]'>
+                    <img src="/humphrey.png" alt="humphrey" className='w-[300px] object-cover h-[320px]' />
+                    <div className='flex justify-center items-center flex-col gap-4 p-5'>
+                        <p className='font-semibold text-xl'>Humphrey Oriakhi</p>
+                        <p className='text-sm font-light text-secondaryRed'>REGIONAL HEAD</p>
+                    </div>
+                </div>
+                <div className='shadow-[0px_0px_25px_7px_rgba(0,0,0,0.1)]'>
+                    <img src="/bolarinwa.png" alt="bolarinwa" className='w-[300px] object-cover h-[320px]' />
+                    <div className='flex justify-center items-center flex-col gap-4 p-5'>
+                        <p className='font-semibold text-xl'>Bolarinwa Sanni</p>
+                        <p className='text-sm font-light text-secondaryRed'>MANAGING DIRECTOR</p>
+                    </div>
+                </div>
+                <div className='shadow-[0px_0px_25px_7px_rgba(0,0,0,0.1)]'>
+                    <img src="/nentok.png" alt="nentok" className='w-[300px] object-cover h-[320px]' />
+                    <div className='flex justify-center items-center flex-col gap-4 p-5'>
+                        <p className='font-semibold text-xl'>Nentok Gomwalk</p>
+                        <p className='text-sm font-light text-secondaryRed uppercase'>Head, Finance, Inv & Strategy</p>
+                    </div>
+                </div>
+                <div className='shadow-[0px_0px_25px_7px_rgba(0,0,0,0.1)]'>
+                    <img src="/eric.png" alt="eric" className='w-[300px] object-cover h-[320px]' />
+                    <div className='flex justify-center items-center flex-col gap-4 p-5'>
+                        <p className='font-semibold text-xl'>Fatai Asimi</p>
+                        <p className='text-sm font-light text-secondaryRed uppercase'>Head, Research</p>
+                    </div>
+                </div>
+                <div className='shadow-[0px_0px_25px_7px_rgba(0,0,0,0.1)]'>
+                    <img src="/erica.png" alt="erica" className='w-[300px] object-cover h-[320px]' />
+                    <div className='flex justify-center items-center flex-col gap-4 p-5'>
+                        <p className='font-semibold text-xl'>Erica Aniemeke</p>
+                        <p className='text-sm font-light text-secondaryRed uppercase'>Business Development Mgr.</p>
                     </div>
                 </div>
             </div>

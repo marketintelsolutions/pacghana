@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 const Banner = () => {
     const [currBg, setCurrBg] = useState(0)
 
-    const backgrounds = ['meeting', 'portfoliobanner', 'aboutbanner']
+    const backgrounds = ['banner', 'banner2', 'banner3']
 
 
 

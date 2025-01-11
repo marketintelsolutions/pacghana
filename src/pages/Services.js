@@ -1,9 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import PageBanner from '../components/PageBanner'
 import { FaArrowRightLong } from 'react-icons/fa6'
 import { Link } from 'react-router'
 
 const Services = () => {
+    useEffect(() => {
+        window.scroll(0, 0)
+    }, [])
+
     return (
         <section>
             <PageBanner text='Services' image='servicesbanner' />

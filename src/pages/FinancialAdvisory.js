@@ -1,10 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import PageBanner from '../components/PageBanner'
 
 const FinancialAdvisory = () => {
+    useEffect(() => {
+        window.scroll(0, 0)
+    }, [])
+
     return (
         <section>
-            <PageBanner text='Financial Advisory' image='servicesbanner' />
+            <PageBanner text='Financial Advisory' image='financebanner' />
             <div className='py-40 max-w-max mx-auto flex gap-20'>
                 <div className='max-w-[45%] '>
                     <h3 className='text-secondaryRed rounded-full w-fit border border-secondaryRed p-1 px-2 font-semibold'>FINANCIAL ADVISORY</h3>

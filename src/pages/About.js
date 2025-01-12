@@ -1,10 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import PageBanner from '../components/PageBanner'
 import { Link } from 'react-router'
 import Counts from '../components/About/Counts'
 import Team from '../components/About/Team'
 
 const About = () => {
+    useEffect(() => {
+        window.scroll(0, 0)
+    }, [])
+
     return (
         <section className='pb-40'>
             <PageBanner text='About Us' image='aboutbanner' />

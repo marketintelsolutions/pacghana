@@ -1,11 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-*,::before,::after,body {
+*,
+::before,
+::after,
+body {
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
   box-sizing: border-box;
   transition: all 0.2s linear;
+  font-family: "Montserrat", "Open Sans", serif;
 }

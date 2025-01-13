@@ -15,3 +15,38 @@ body {
   transition: all 0.2s linear;
   font-family: "Montserrat", "Open Sans", serif;
 }
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%); /* Changed from -100% to -50% */
+  }
+}
+
+.scroll-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative; /* Added position relative */
+}
+
+.scroll-content {
+  display: flex;
+  animation: scroll 20s linear infinite;
+  width: fit-content;
+  gap: 56px; /* Using pixel value instead of gap-14 for consistency */
+}
+
+/* Optional: Add smooth animation on hover */
+.scroll-content:hover {
+  animation-play-state: paused;
+}
+
+.arrow-icon {
+  transition: transform 0.3s ease;
+}
+
+.link-container:hover .arrow-icon {
+  transform: translateX(10px);
+}

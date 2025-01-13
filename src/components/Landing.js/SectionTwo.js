@@ -38,17 +38,30 @@ const SectionTwo = () => {
                         raising capital for both the private and
                         public sectors.
                     </p>
-                    <Link to={'/about'} className=''> <button className='px-4 py-4 mt-10 bg-primaryBlue rounded-md w-[180px] text-white text-lg border-primaryBlue border hover:bg-white hover:text-primaryBlue'>EXPLORE</button></Link>
+                    <Link to={'/about'} className=''> <button className='px-3 py-4 mt-10 bg-primaryBlue rounded-full w-[160px] text-white text-base border-primaryBlue border hover:bg-white hover:text-primaryBlue'>EXPLORE</button></Link>
 
                 </div>
             </div>
-            <div className='w-full max-w-max mx-auto flex items-center gap-14 mt-20 '>
+            <h2 className='text-4xl mt-28 font-semibold text-center text-primaryBlue'>Our Strategic Partnership</h2>
 
-                <img src="afrexim.jpeg" alt="afrexim" className='object-cover max-w-[200px]' />
-                <img src="commonwealth.jpeg" alt="commonwealth" className='object-cover max-w-[200px]' />
-                <img src="atlantic.jpeg" alt="atlantic" className='object-cover max-w-[200px]' />
-                <img src="axendo.jpeg" alt="axendo" className='object-cover max-w-[200px]' />
-                <img src="sfcapital.jpeg" alt="sfcapital" className='object-cover max-w-[200px]' />
+            <div className="scroll-container mt-10">
+                <div className='scroll-content flex items-center'>
+                    {/* First set of images */}
+                    <img src="afrexim.jpeg" alt="afrexim" className='object-cover max-w-[200px]' />
+                    <img src="commonwealth.jpeg" alt="commonwealth" className='object-cover max-w-[200px]' />
+                    <img src="atlantic.jpeg" alt="atlantic" className='object-cover max-w-[200px]' />
+                    <img src="axendo.jpeg" alt="axendo" className='object-cover max-w-[200px]' />
+                    <img src="sfcapital.jpeg" alt="sfcapital" className='object-cover max-w-[200px]' />
+                    <img src="logo.jpeg" alt="paclogo" className='object-cover max-w-[200px]' />
+
+                    {/* Second set of images */}
+                    <img src="afrexim.jpeg" alt="afrexim" className='object-cover max-w-[200px]' />
+                    <img src="commonwealth.jpeg" alt="commonwealth" className='object-cover max-w-[200px]' />
+                    <img src="atlantic.jpeg" alt="atlantic" className='object-cover max-w-[200px]' />
+                    <img src="axendo.jpeg" alt="axendo" className='object-cover max-w-[200px]' />
+                    <img src="sfcapital.jpeg" alt="sfcapital" className='object-cover max-w-[200px]' />
+                    <img src="logo.jpeg" alt="paclogo" className='object-cover max-w-[200px]' />
+                </div>
             </div>
         </section>
     )

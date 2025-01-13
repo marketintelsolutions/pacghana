@@ -28,7 +28,7 @@ const Navbar = () => {
     const { pathname } = useLocation()
 
     return (
-        <nav className='bg-primaryBlue '>
+        <nav className='bg-primaryBlue relative'>
             <div className='bg-white '>
                 <div className='w-full max-w-max mx-auto flex justify-between py-4 items-center'>
                     <img src="/logo.jpeg" alt="logo" className='max-w-[250px]' />
@@ -51,7 +51,7 @@ const Navbar = () => {
                     </div>
                 </div>
             </div>
-            <div className='w-full py-6 max-w-max mx-auto flex justify-between items-center'>
+            <div className='w-full sticky left-0 top-0 py-6 max-w-max mx-auto flex justify-between items-center'>
 
                 <div className='flex gap-16 justify-start w-full  text-xl'>
                     {

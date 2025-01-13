@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import PageBanner from '../components/PageBanner'
+import SubPageBanner from '../components/SubPageBanner'
 
 const CapitalRaisingAdvisory = () => {
 
@@ -9,7 +10,7 @@ const CapitalRaisingAdvisory = () => {
 
     return (
         <section>
-            <PageBanner text='Capital Raising Advisory' image='capitalbanner' />
+            <SubPageBanner text='Capital Raising Advisory' image='capitalbanner' />
             <div className='py-40 max-w-max mx-auto flex gap-20 items-center'>
                 <div className='max-w-[50%] '>
                     <h3 className='text-secondaryRed rounded-full w-fit border border-secondaryRed p-1 px-2 font-semibold'>CAPITAL RAISING ADVISORY</h3>

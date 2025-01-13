@@ -25,18 +25,36 @@ const Services = () => {
                                 sector, and market knowledge</p>
                         </div>
 
-                        <Link to={'/services/financial-advisory'} className='border-t text-secondaryRed w-full py-4 flex justify-between px-6 items-center text-lg hover:bg-secondaryRed hover:text-white'>Explore More <span><FaArrowRightLong /></span></Link>
+
+
+                        <Link
+                            to={'/services/financial-advisory'}
+                            className='link-container  border-t text-secondaryRed w-full py-4 flex justify-between px-6 items-center text-lg hover:bg-secondaryRed hover:text-white'
+                        >
+                            Explore More
+                            <span className='arrow-icon'>
+                                <FaArrowRightLong />
+                            </span>
+                        </Link>
 
                     </div>
 
                     <div className='w-full max-w-[400px] shadow-[0px_0px_25px_7px_rgba(0,0,0,0.1)] hover:-translate-y-4'>
                         <img src="/capital.png" alt="capital" className='w-full h-[300px] border-b object-cover' />
-                        <div className='flex flex-col gap-3 items-center p-5'>
+                        <div className='flex flex-col gap-3 items-center p-5 bg-primaryBlue text-white'>
                             <h2 className='text-2xl font-semibold'>Capital Raising Advisory</h2>
                             <p className='text-center font-light text-lg tracking-[1px]'>Our Capital Raising advisory services cut across all sectors of the economy and we support both
                                 the private sector and public sector</p>
                         </div>
-                        <Link to={'/services/capital-raising-advisory'} className='border-t text-secondaryRed w-full py-4 flex justify-between px-6 items-center text-lg hover:bg-secondaryRed hover:text-white'>Explore More <span><FaArrowRightLong /></span></Link>
+                        <Link
+                            to={'/services/capital-raising-advisory'}
+                            className='link-container bg-primaryBlue border-t text-secondaryRed w-full py-4 flex justify-between px-6 items-center text-lg hover:bg-secondaryRed hover:text-white'
+                        >
+                            Explore More
+                            <span className='arrow-icon'>
+                                <FaArrowRightLong />
+                            </span>
+                        </Link>
 
                     </div>
                 </div>

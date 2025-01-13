@@ -15,7 +15,8 @@ const Contact = () => {
 
             <div className='pt-40 flex gap-10 w-full max-w-max mx-auto items-center'>
                 <div className='w-full max-w-[35%]'>
-                    <h2 className='text-secondaryRed text-base font-semibold'>CONTACT DETAILS</h2>
+                    <h3 className='text-secondaryRed rounded-full w-fit border border-secondaryRed p-1 px-2 font-semibold'>CONTACT DETAILS</h3>
+
 
                     <h1 className='text-[45px] font-medium mt-3' >Our Contacts</h1>
 

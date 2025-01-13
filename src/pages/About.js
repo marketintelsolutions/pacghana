@@ -3,6 +3,7 @@ import PageBanner from '../components/PageBanner'
 import { Link } from 'react-router'
 import Counts from '../components/About/Counts'
 import Team from '../components/About/Team'
+import MisionVision from '../components/About/MisionVision'
 
 const About = () => {
     useEffect(() => {
@@ -37,6 +38,7 @@ const About = () => {
             </div>
 
             <Counts />
+            <MisionVision />
             <Team />
 
         </section>

@@ -39,9 +39,9 @@ const Banner = () => {
                         emerging and frontier markets in Africa.
                     </p>
 
-                    <div className='flex gap-20 mt-12 '>
-                        <button className='px-4 py-4 bg-primaryBlue rounded-md w-[180px] text-white text-lg border-primaryBlue border hover:bg-white hover:text-primaryBlue'>EXPLORE</button>
-                        <button className='px-4 py-4 border border-primaryBlue hover:bg-primaryBlue rounded-md w-[180px] text-white text-lg'>GET IN TOUCH</button>
+                    <div className='flex gap-10 mt-12 '>
+                        <button className='px-3 py-4 bg-primaryBlue rounded-full w-[160px] text-white text-base border-primaryBlue border hover:bg-white hover:text-primaryBlue'>EXPLORE</button>
+                        <button className='px-3 py-4 border border-primaryBlue hover:bg-primaryBlue rounded-full w-[160px] text-white text-base'>GET IN TOUCH</button>
                     </div>
                 </div>
             </div>

@@ -6,6 +6,7 @@ import Services from "./pages/Services";
 import FinancialAdvisory from "./pages/FinancialAdvisory";
 import CapitalRaisingAdvisory from "./pages/CapitalRaisingAdvisory";
 import Contact from "./pages/Contact";
+import MIlestones from "./pages/MIlestones";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<Landing />} />
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
+        <Route path="/milestones" element={<MIlestones />} />
         <Route path="/services/financial-advisory" element={<FinancialAdvisory />} />
         <Route path="/services/capital-raising-advisory" element={<CapitalRaisingAdvisory />} />
         <Route path="/contact" element={<Contact />} />

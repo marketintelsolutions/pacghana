@@ -12,7 +12,7 @@ const SubPageBanner = ({ image, text }) => {
                     <div className='flex gap-2 text-white text-lg font-light items-center '>
                         <Link to={'/'} className='opacity-60'>HOME</Link>
                         <span><FaChevronRight /></span>
-                        <Link to={'/'} className='opacity-60'>SERVICES</Link>
+                        <Link to={'/services'} className='opacity-60'>SERVICES</Link>
                         <span><FaChevronRight /></span>
                         <p className='uppercase'>{text}</p>
                     </div>

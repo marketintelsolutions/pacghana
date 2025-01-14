@@ -1,14 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { useDisclosure } from '../../hooks/useDisclosure'
 import TeamMemberModal from './TeamMemberModal'
 import { boardMembers, teamMembersManagement } from '../../utils/data'
 
 const Team = () => {
+    const [selectedTeamMember, setSelectedTeamMember] = useState({})
+
     const teammemberModal = useDisclosure()
 
     return (
-        <div className='flex flex-col items-center'>
-            <h3 className='text-secondaryRed rounded-full w-fit border border-secondaryRed p-1 px-2 font-semibold'>OUR TEAM</h3>
+        <div className='flex flex-col items-center pt-20'>
+            <h3 className='text-secondaryRed rounded-full w-fit border border-secondaryRed p-1 px-2 font-semibold '>OUR TEAM</h3>
             <p className='text-xl max-w-[60%] text-center mt-4 font-normal tracking-[1.5px]'>We help you see the world differently, discover opportunities you may never have imagined and achieve results that bridge what is with what can be.</p>
             <h2 className='text-4xl font-semibold mt-10'>Our Leadership - <span className='text-primaryBlue font-bold'>BOARD</span></h2>
             <div className='mt-20 flex flex-wrap gap-12 justify-center w-full max-w-max mx-auto'>
@@ -16,7 +18,10 @@ const Team = () => {
                     <div
                         key={member.id}
                         className='shadow-[0px_0px_25px_7px_rgba(0,0,0,0.1)]'
-                        onClick={teammemberModal.open}
+                        onClick={() => {
+                            teammemberModal.open()
+                            setSelectedTeamMember(member)
+                        }}
                     >
                         <img
                             src={member.image}
@@ -37,7 +42,10 @@ const Team = () => {
                     <div
                         key={member.id}
                         className='shadow-[0px_0px_25px_7px_rgba(0,0,0,0.1)]'
-                        onClick={teammemberModal.open}
+                        onClick={() => {
+                            teammemberModal.open()
+                            setSelectedTeamMember(member)
+                        }}
                     >
                         <img
                             src={member.image}
@@ -53,7 +61,7 @@ const Team = () => {
                     </div>
                 ))}
             </div>
-            {teammemberModal.isOpen && <TeamMemberModal modal={teammemberModal} />}
+            {teammemberModal.isOpen && <TeamMemberModal modal={teammemberModal} selectedTeamMember={selectedTeamMember} />}
 
         </div>
     )

@@ -42,7 +42,7 @@ const SectionTwo = () => {
 
                 </div>
             </div>
-            <h2 className='text-4xl mt-28 font-semibold text-center text-primaryBlue'>Our Strategic Partnership</h2>
+            <h3 className='text-secondaryRed rounded-full w-fit border mt-40 text-center mx-auto uppercase border-secondaryRed p-1 px-2 font-semibold'>Our Strategic Partnership</h3>
 
             <div className="scroll-container mt-10">
                 <div className='scroll-content flex items-center'>

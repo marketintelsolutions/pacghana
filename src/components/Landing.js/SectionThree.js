@@ -13,8 +13,8 @@ const SectionThree = () => {
                 across several sectors
                 of the economy...</p>
 
-            <div className='grid grid-cols-3 w-full max-w-max mx-auto bg-primaryBlue p-[1px] gap-[1px] mt-20'>
-                {
+            <div className='grid grid-cols-3 w-full max-w-max mx-auto bg-white p-[1px] gap-[1px] mt-20'>
+                {/* {
                     trackRecord.map((item, index) => <div key={index} className='w-full flex flex-col bg-white px-10 py-5'>
                         <div className='flex justify-center h-[80px]'>
                             {item.company && <h3 className='text-primaryBlue font-semibold text-[28px] text-center'>{item.company}</h3>}
@@ -26,10 +26,14 @@ const SectionThree = () => {
                         <div className='h-[1px] w-full bg-black max-w-[200px] mx-auto mt-3'></div>
                         <p className='font-light text-center mt-2'>{item.role}</p>
                     </div>)
-                }
+                } */}
+                <img src="/milestone1.jpg" alt="milestone1" className='mx-auto' />
+                <img src="/milestone2.jpg" alt="milestone2" className='mx-auto' />
+                <img src="/milestone3.jpg" alt="milestone3" className='mx-auto' />
 
 
             </div>
+            <Link to={'/milestones'} className=''> <button className='px-3 py-4 mt-10 bg-primaryBlue rounded-full w-[160px] text-white text-base border-primaryBlue border hover:bg-white hover:text-primaryBlue'>EXPLORE</button></Link>
 
             {/* <Link to={'/portfolio'} className=''>
                 <button className='px-4 py-4 mt-10 bg-primaryBlue rounded-md w-[180px] text-white text-lg border-primaryBlue border hover:bg-white hover:text-primaryBlue'>EXPLORE</button>

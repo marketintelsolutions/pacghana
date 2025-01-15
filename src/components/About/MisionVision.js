@@ -8,7 +8,7 @@ const MisionVision = () => {
                     <h1 className='text-4xl font-bold text-primaryBlue flex items-center gap-4'>Vision
                         <img src="/vision.png" alt="vision" className='max-w-[50px]' /></h1>
 
-                    <p className='text-4xl mt-8'>
+                    <p className='text-2xl mt-4'>
                         To be the prefered
                         investment banking
                         firm in Africa.
@@ -19,7 +19,7 @@ const MisionVision = () => {
                         <img src="/mission.png" alt="mission" className='max-w-[50px]' /></h1>
 
 
-                    <p className='text-4xl mt-10'>
+                    <p className='text-2xl mt-5'>
                         To create a professional and
                         goal-oriented institution that
                         anticipates and delivers on the

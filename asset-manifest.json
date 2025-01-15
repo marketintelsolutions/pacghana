@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pacghana/static/css/main.1399c58d.css",
+    "main.js": "/pacghana/static/js/main.c86ce836.js",
+    "index.html": "/pacghana/index.html",
+    "main.1399c58d.css.map": "/pacghana/static/css/main.1399c58d.css.map",
+    "main.c86ce836.js.map": "/pacghana/static/js/main.c86ce836.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1399c58d.css",
+    "static/js/main.c86ce836.js"
+  ]
+}
